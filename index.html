@@ -42,7 +42,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.1.1/Tween.min.js"></script>
 
   <!-- then load CanvasFlowMapLayer -->
-  <script src="../../src/CanvasFlowmapLayer.js"></script>
+  <script src="src/CanvasFlowmapLayer.js"></script>
 
   <!-- also load 3rd-party CSV parsing libary just for this demo  -->
   <script src="https://unpkg.com/papaparse@4.3.6/papaparse.min.js"></script>
@@ -66,7 +66,7 @@
 
 //    L.esri.basemapLayer('DarkGray').addTo(map);
 
-    Papa.parse('../csv-data/Flowmap_Cities_Test.csv', {
+    Papa.parse('docs/csv-data/Flowmap_Cities_Test.csv', {
       download: true,
       header: true,
       dynamicTyping: true,
